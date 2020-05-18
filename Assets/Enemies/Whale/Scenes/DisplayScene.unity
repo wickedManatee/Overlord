@@ -1,0 +1,3884 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 0
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 0.243
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.243}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 112000001, guid: 8a5fb07d1fecdf3418cec55a3a5ba44d,
+    type: 2}
+  m_ShadowMaskMode: 2
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &44370104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 44370105}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &44370105
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 44370104}
+  m_LocalRotation: {x: 0.0037320454, y: 0.1259371, z: -0.17151336, w: 0.97709215}
+  m_LocalPosition: {x: -0.45955345, y: 0.0035939645, z: -1.4106139e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2035131636}
+  m_Father: {fileID: 96149172}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &71858485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011656656656, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 71858486}
+  m_Layer: 0
+  m_Name: WhaleRig01_RootCntrl1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &71858486
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011362188776, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 71858485}
+  m_LocalRotation: {x: 0.5454948, y: -0, z: -0, w: 0.8381142}
+  m_LocalPosition: {x: 0.10698618, y: 1.6183578, z: -0.2898888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 146459033}
+  m_Father: {fileID: 2111278169}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &72043298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 72043299}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &72043299
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 72043298}
+  m_LocalRotation: {x: 1, y: -5.3101965e-17, z: -4.3133378e-32, w: -6.123234e-17}
+  m_LocalPosition: {x: 0.179416, y: 0.09911019, z: 0.808572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 350822941}
+  m_Father: {fileID: 484823873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &75456420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012972269392, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 75456421}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &75456421
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013902009206, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 75456420}
+  m_LocalRotation: {x: -7.71605e-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.17941591, y: 0.099110164, z: 0.8085717}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 262162532}
+  m_Father: {fileID: 627300962}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &96149171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 96149172}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96149172
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 96149171}
+  m_LocalRotation: {x: -0.0045223706, y: -0.21358624, z: -0.154588, w: 0.96460515}
+  m_LocalPosition: {x: -0.5116772, y: -0.0027899542, z: -1.4232073e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 44370105}
+  m_Father: {fileID: 1317469852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &99094938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012139260708, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 99094939}
+  m_Layer: 0
+  m_Name: WhaleRig01_Head1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99094939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011357739246, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 99094938}
+  m_LocalRotation: {x: 2.5744023e-15, y: 4.599829e-16, z: 0.4186168, w: 0.908163}
+  m_LocalPosition: {x: -0.29180807, y: -0.034354243, z: -1.907199e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 246601095}
+  - {fileID: 1055089910}
+  m_Father: {fileID: 871528784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &117662533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011535439950, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 117662534}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117662534
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013049659912, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 117662533}
+  m_LocalRotation: {x: -0.40586352, y: -0.02043842, z: 0.19778708, w: 0.89204115}
+  m_LocalPosition: {x: -0.31630203, y: 0.2267371, z: -0.23260581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1140624840}
+  m_Father: {fileID: 1000719825}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &126382656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 126382661}
+  - component: {fileID: 126382660}
+  - component: {fileID: 126382659}
+  - component: {fileID: 126382658}
+  - component: {fileID: 126382657}
+  m_Layer: 0
+  m_Name: Main Camera (2)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &126382657
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126382656}
+  m_Enabled: 1
+--- !u!124 &126382658
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126382656}
+  m_Enabled: 1
+--- !u!92 &126382659
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126382656}
+  m_Enabled: 1
+--- !u!20 &126382660
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126382656}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &126382661
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126382656}
+  m_LocalRotation: {x: 0.19539507, y: -0.5162621, z: 0.18406563, w: 0.8132737}
+  m_LocalPosition: {x: 3.36, y: 3.52, z: -8.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 30.507002, y: -63.140003, z: 6.328}
+--- !u!1 &136317684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 136317685}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136317685
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 136317684}
+  m_LocalRotation: {x: 0.12651375, y: 0.019965831, z: -0.013156782, w: 0.9916766}
+  m_LocalPosition: {x: 0.16885303, y: -0.00024665624, z: -0.00001176584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 203591789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &146459032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010010746918, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 146459033}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &146459033
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012594122532, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 146459032}
+  m_LocalRotation: {x: -0.4485464, y: 0.54663163, z: -0.4485464, w: 0.54663163}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 499592695}
+  - {fileID: 2109312316}
+  - {fileID: 1476593524}
+  m_Father: {fileID: 71858486}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &148017364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 148017365}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148017365
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 148017364}
+  m_LocalRotation: {x: 0.54112184, y: 0.7347553, z: -0.13158147, w: -0.38730887}
+  m_LocalPosition: {x: -0.09309047, y: -0.30688265, z: -0.6207278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 631265014}
+  m_Father: {fileID: 1984698362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &194189460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013159803822, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 194189461}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &194189461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011621561072, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 194189460}
+  m_LocalRotation: {x: 0.12651375, y: 0.019965831, z: -0.013156782, w: 0.9916766}
+  m_LocalPosition: {x: 0.16885303, y: -0.00024665624, z: -0.00001176584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1511200127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &203591788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 203591789}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203591789
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 203591788}
+  m_LocalRotation: {x: -0.017701112, y: -0.060022194, z: 0.26297295, w: 0.96277165}
+  m_LocalPosition: {x: 0.49440405, y: -0.0007161487, z: -0.000022663227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 136317685}
+  m_Father: {fileID: 1282634268}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &222044364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 222044365}
+  m_Layer: 0
+  m_Name: WhaleRig01_Head1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222044365
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 222044364}
+  m_LocalRotation: {x: 2.5744023e-15, y: 4.599829e-16, z: 0.4186168, w: 0.908163}
+  m_LocalPosition: {x: -0.29180807, y: -0.034354243, z: -1.907199e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1763258069}
+  - {fileID: 1072798626}
+  m_Father: {fileID: 1631444736}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &222696359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012335509514, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 222696360}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222696360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012566142744, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 222696359}
+  m_LocalRotation: {x: -0.00034285526, y: 0.020956133, z: 0.00007635679, w: 0.99978036}
+  m_LocalPosition: {x: -0.41004127, y: 0.005348404, z: -1.3531955e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 356575853}
+  m_Father: {fileID: 1241531116}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &234767084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014293836636, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 234767085}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &234767085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012693168304, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 234767084}
+  m_LocalRotation: {x: 0.06444576, y: 0.065881565, z: 0.13537413, w: 0.986499}
+  m_LocalPosition: {x: -0.12162378, y: -0.019900246, z: 0.10920825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1017106450}
+  m_Father: {fileID: 889703026}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &243004741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013152985912, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 243004742}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243004742
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010670361096, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 243004741}
+  m_LocalRotation: {x: -0.1570508, y: -0.10849148, z: -0.452789, w: 0.87094593}
+  m_LocalPosition: {x: -0.18770798, y: -0.48065382, z: 0.11618986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1141780837}
+  m_Father: {fileID: 1308836711}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246601094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012533508324, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 246601095}
+  m_Layer: 0
+  m_Name: WhaleRig01_Jaw1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246601095
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011219109782, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 246601094}
+  m_LocalRotation: {x: 4.2674198e-16, y: 2.6477936e-25, z: 0.02139906, w: 0.999771}
+  m_LocalPosition: {x: -0.009323356, y: -0.08895027, z: -2.7716923e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1251067651}
+  m_Father: {fileID: 99094939}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &249525545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010992713858, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 249525546}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249525546
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011695682100, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 249525545}
+  m_LocalRotation: {x: -0.0129576055, y: 0.023458516, z: -0.3262178, w: 0.9449147}
+  m_LocalPosition: {x: 0.0072232215, y: 0.5288617, z: 0.0036779435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1511200127}
+  m_Father: {fileID: 738668021}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262162531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013041626972, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 262162532}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262162532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010406986552, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 262162531}
+  m_LocalRotation: {x: -0.19196625, y: 0.67490196, z: -0.183302, w: 0.68851775}
+  m_LocalPosition: {x: 0.17941591, y: 0.1295395, z: -0.20479697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 742883892}
+  m_Father: {fileID: 75456421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &270668897
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.549
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -6.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f85e3056e6d31594d8f370d05da256ff, type: 2}
+  m_RootGameObject: {fileID: 1117326632}
+  m_IsPrefabParent: 0
+--- !u!1001 &280886871
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_RootGameObject: {fileID: 718682277}
+  m_IsPrefabParent: 0
+--- !u!1 &282853762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011105479010, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 282853763}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &282853763
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011476235970, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 282853762}
+  m_LocalRotation: {x: 0.12651375, y: 0.019965831, z: -0.013156782, w: 0.9916766}
+  m_LocalPosition: {x: -0.16886146, y: 0.00024563065, z: 0.0000125741835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1141780837}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &350822940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 350822941}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350822941
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 350822940}
+  m_LocalRotation: {x: 0.6770138, y: 0.19242276, z: 0.68548125, w: 0.18639028}
+  m_LocalPosition: {x: -0.179416, y: -0.1295398, z: 0.204797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1671982737}
+  m_Father: {fileID: 72043299}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &356575852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012492498420, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 356575853}
+  m_Layer: 0
+  m_Name: WhaleRig01_TailProng1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356575853
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012487936094, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 356575852}
+  m_LocalRotation: {x: -0.042795576, y: 0.3467115, z: 0.19966958, w: 0.9154735}
+  m_LocalPosition: {x: -0.39935303, y: -0.0029751207, z: -1.3210023e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1361940125}
+  m_Father: {fileID: 222696360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &469800661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 469800662}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469800662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 469800661}
+  m_LocalRotation: {x: -0.40586352, y: -0.02043842, z: 0.19778708, w: 0.89204115}
+  m_LocalPosition: {x: -0.31630203, y: 0.2267371, z: -0.23260581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1551473003}
+  m_Father: {fileID: 1671982737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &484823872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 484823873}
+  m_Layer: 0
+  m_Name: WhaleRig01_transform27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484823873
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 484823872}
+  m_LocalRotation: {x: -0.028728805, y: -0.17242822, z: -0.16181715, w: 0.9712149}
+  m_LocalPosition: {x: 0.122474305, y: -0.2836837, z: -0.5668758}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 72043299}
+  - {fileID: 1374542981}
+  m_Father: {fileID: 1008333475}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &499592694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011961555166, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 499592695}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499592695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010031689550, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 499592694}
+  m_LocalRotation: {x: -8.2860264e-17, y: 8.2173735e-18, z: -0.18650897, w: 0.9824533}
+  m_LocalPosition: {x: -0.5497504, y: -3.5527136e-17, z: 6.1034554e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 813498457}
+  m_Father: {fileID: 146459033}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &517188587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011855552984, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 517188588}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517188588
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012161300336, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 517188587}
+  m_LocalRotation: {x: 0.6770138, y: 0.19242276, z: 0.68548125, w: 0.18639028}
+  m_LocalPosition: {x: -0.179416, y: -0.1295398, z: 0.204797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1000719825}
+  m_Father: {fileID: 963026756}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &562590196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 562590197}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562590197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 562590196}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.8918134, y: 7.105427e-17, z: 2.1689764e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763258069}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &624951909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013853699380, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 624951910}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624951910
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013333080516, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 624951909}
+  m_LocalRotation: {x: 0.1458898, y: 0.1218983, z: 0.23026155, w: 0.95437765}
+  m_LocalPosition: {x: -0.014793702, y: -0.15231866, z: 0.0809393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1539110090}
+  m_Father: {fileID: 1140624840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &627300961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013778688614, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 627300962}
+  m_Layer: 0
+  m_Name: WhaleRig01_transform27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &627300962
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010164878190, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 627300961}
+  m_LocalRotation: {x: -0.028728805, y: -0.17242822, z: -0.16181715, w: 0.9712149}
+  m_LocalPosition: {x: 0.122474305, y: -0.2836837, z: -0.5668758}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 963026756}
+  - {fileID: 75456421}
+  m_Father: {fileID: 813498457}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631265013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 631265014}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &631265014
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 631265013}
+  m_LocalRotation: {x: 0.5871456, y: 0.58261865, z: -0.3541647, w: -0.43632895}
+  m_LocalPosition: {x: -0.299916, y: 0.17952664, z: -0.28876087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1214114664}
+  m_Father: {fileID: 148017365}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &651034190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100098, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 651034191}
+  - component: {fileID: 651034192}
+  m_Layer: 0
+  m_Name: WhaleRig01_WhaleTeeth_Group23368
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &651034191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 651034190}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 718682279}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &651034192
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: 6f012b33467426c43a1c019d350c0a03,
+    type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 651034190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b165bcd22a7aaed4ca27aa951a659d42, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Bones:
+  - {fileID: 222044365}
+  - {fileID: 1763258069}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 222044365}
+  m_AABB:
+    m_Center: {x: -0.8545512, y: -0.09648893, z: 0}
+    m_Extent: {x: 0.5907575, y: 0.1586932, z: 0.6389263}
+  m_DirtyAABB: 0
+--- !u!1 &696308103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 696308108}
+  - component: {fileID: 696308107}
+  - component: {fileID: 696308106}
+  - component: {fileID: 696308105}
+  - component: {fileID: 696308104}
+  m_Layer: 0
+  m_Name: Main Camera (1)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &696308104
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696308103}
+  m_Enabled: 1
+--- !u!124 &696308105
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696308103}
+  m_Enabled: 1
+--- !u!92 &696308106
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696308103}
+  m_Enabled: 1
+--- !u!20 &696308107
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696308103}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 75
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 2
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &696308108
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696308103}
+  m_LocalRotation: {x: 0.091483556, y: -0.83568764, z: 0.16386837, w: 0.51614344}
+  m_LocalPosition: {x: 4.15, y: 3.43, z: -4.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 21.574001, y: -116.284004, z: 0.97200006}
+--- !u!1 &718682277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 718682279}
+  - component: {fileID: 718682278}
+  m_Layer: 0
+  m_Name: Whale.fbx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &718682278
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 6f012b33467426c43a1c019d350c0a03,
+    type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 718682277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &718682279
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 718682277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1904651307}
+  - {fileID: 2126729004}
+  - {fileID: 651034191}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &738668020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013883566302, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 738668021}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738668021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012348487244, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 738668020}
+  m_LocalRotation: {x: -0.021047132, y: -0.030798161, z: 0.14926352, w: 0.9880936}
+  m_LocalPosition: {x: 0.81892407, y: -0.020235103, z: 0.039882865}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 249525546}
+  m_Father: {fileID: 1069795161}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &742883891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013615740374, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 742883892}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &742883892
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014107116972, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 742883891}
+  m_LocalRotation: {x: 0.54112184, y: 0.7347553, z: -0.13158147, w: -0.38730887}
+  m_LocalPosition: {x: -0.09309047, y: -0.30688265, z: -0.6207278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1242634016}
+  m_Father: {fileID: 262162532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765543560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 765543561}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765543561
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 765543560}
+  m_LocalRotation: {x: 0.014977764, y: 0.06280226, z: 0.26219285, w: 0.9628533}
+  m_LocalPosition: {x: -0.49439675, y: 0.0007191626, z: 0.000021983364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1882362556}
+  m_Father: {fileID: 1412044162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &776957943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010452348164, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 776957944}
+  - component: {fileID: 776957945}
+  m_Layer: 0
+  m_Name: WhaleRig01_WhaleTeeth_Group23368
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776957944
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010728788160, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 776957943}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117326634}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &776957945
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137000014270278738, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 776957943}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 244dfa0de13b7624c9a0dcba9816fedc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Bones:
+  - {fileID: 99094939}
+  - {fileID: 246601095}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 99094939}
+  m_AABB:
+    m_Center: {x: -0.85455096, y: -0.0964888, z: 0}
+    m_Extent: {x: 0.5907575, y: 0.15869305, z: 0.6389263}
+  m_DirtyAABB: 0
+--- !u!1 &797085320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 797085321}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797085321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 797085320}
+  m_LocalRotation: {x: 0.63976955, y: 0.7549029, z: -0.137311, w: -0.044296585}
+  m_LocalPosition: {x: 0.0699048, y: -0.23117706, z: 0.60705566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1262578194}
+  m_Father: {fileID: 1744363039}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &810326864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 810326865}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &810326865
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 810326864}
+  m_LocalRotation: {x: -0.4485464, y: 0.54663163, z: -0.4485464, w: 0.54663163}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 896104002}
+  - {fileID: 1744363039}
+  - {fileID: 1517859205}
+  m_Father: {fileID: 1913729091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &813498456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010064580606, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 813498457}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813498457
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012956049480, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 813498456}
+  m_LocalRotation: {x: -0.014129349, y: -0.57243925, z: 0.24659102, w: 0.78186095}
+  m_LocalPosition: {x: -0.49416414, y: 2.1316282e-16, z: 4.571278e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 871528784}
+  - {fileID: 627300962}
+  m_Father: {fileID: 499592695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &867421592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 867421593}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867421593
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 867421592}
+  m_LocalRotation: {x: 0.5227069, y: 0.84166193, z: 0.071530566, w: -0.11517841}
+  m_LocalPosition: {x: -0.11037605, y: 0.043650407, z: 0.0028428053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1293315794}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &871528783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013595411968, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 871528784}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871528784
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012819009390, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 871528783}
+  m_LocalRotation: {x: -0.078234755, y: 0.5672439, z: -0.36927575, w: 0.73194885}
+  m_LocalPosition: {x: -0.044725183, y: 0.22240321, z: 0.3120771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 99094939}
+  m_Father: {fileID: 813498457}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &889703025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012215093672, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 889703026}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889703026
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012490449326, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 889703025}
+  m_LocalRotation: {x: 0.10156527, y: 0.23371321, z: -0.5870949, w: 0.7683634}
+  m_LocalPosition: {x: -0.31043196, y: 0.048950452, z: 0.024210474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2002424788}
+  - {fileID: 234767085}
+  m_Father: {fileID: 1242634016}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &896104001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 896104002}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &896104002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 896104001}
+  m_LocalRotation: {x: -8.2860264e-17, y: 8.2173735e-18, z: -0.18650897, w: 0.9824533}
+  m_LocalPosition: {x: -0.5497504, y: -3.5527136e-17, z: 6.1034554e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1008333475}
+  m_Father: {fileID: 810326865}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &963026755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013841718314, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 963026756}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963026756
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012842501948, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 963026755}
+  m_LocalRotation: {x: 1, y: -5.3101965e-17, z: -4.3133378e-32, w: -6.123234e-17}
+  m_LocalPosition: {x: 0.179416, y: 0.09911019, z: 0.808572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 517188588}
+  m_Father: {fileID: 627300962}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &996646848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 996646849}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &996646849
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 996646848}
+  m_LocalRotation: {x: 0.008126054, y: 0.7070601, z: -0.008126054, w: 0.7070601}
+  m_LocalPosition: {x: -0.7945724, y: -0.0059194462, z: -2.6398303e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1493327498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000719824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014130307002, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1000719825}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1000719825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013205841154, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1000719824}
+  m_LocalRotation: {x: 0.6623755, y: 0.6780768, z: -0.20679383, w: -0.242295}
+  m_LocalPosition: {x: -0.08651649, y: -0.3083402, z: 0.62095654}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 117662534}
+  m_Father: {fileID: 517188588}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008333474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1008333475}
+  m_Layer: 0
+  m_Name: WhaleRig01_Back2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008333475
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1008333474}
+  m_LocalRotation: {x: -0.014129349, y: -0.57243925, z: 0.24659102, w: 0.78186095}
+  m_LocalPosition: {x: -0.49416414, y: 2.1316282e-16, z: 4.571278e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1631444736}
+  - {fileID: 484823873}
+  m_Father: {fileID: 896104002}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1017106449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010231687750, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1017106450}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017106450
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011384503792, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1017106449}
+  m_LocalRotation: {x: 0.42771524, y: 0.87341267, z: 0.10239939, w: -0.2091039}
+  m_LocalPosition: {x: -0.13310164, y: 0.0136766415, z: -0.0063588223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 234767085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1050909493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011608638132, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1050909494}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050909494
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012065837352, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1050909493}
+  m_LocalRotation: {x: 0.63976955, y: 0.7549029, z: -0.137311, w: -0.044296585}
+  m_LocalPosition: {x: 0.0699048, y: -0.23117706, z: 0.60705566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1308836711}
+  m_Father: {fileID: 2109312316}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1055089909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013244347530, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1055089910}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1055089910
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013916689394, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1055089909}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.022656, y: -7.105427e-17, z: 1.418616e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 99094939}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1069795160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012943821894, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1069795161}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1069795161
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012220147432, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1069795160}
+  m_LocalRotation: {x: 0.7884862, y: -0.6138374, z: 0.034832064, w: -0.0167347}
+  m_LocalPosition: {x: 0.069904715, y: -0.23117751, z: -0.607056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 738668021}
+  m_Father: {fileID: 2109312316}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1072798625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1072798626}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072798626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1072798625}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.022656, y: -7.105427e-17, z: 1.418616e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 222044365}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117326632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010746331740, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1117326634}
+  - component: {fileID: 1117326633}
+  m_Layer: 0
+  m_Name: Whale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1117326633
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 95000012239673052, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1117326632}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &1117326634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013989857612, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1117326632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01, y: -0.549, z: -6.08}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children:
+  - {fileID: 2111278169}
+  - {fileID: 1565503168}
+  - {fileID: 776957944}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -176.56601, z: 0}
+--- !u!1 &1137085967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1137085968}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1137085968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1137085967}
+  m_LocalRotation: {x: 0.1458898, y: 0.1218983, z: 0.23026155, w: 0.95437765}
+  m_LocalPosition: {x: -0.014793702, y: -0.15231866, z: 0.0809393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2096129258}
+  m_Father: {fileID: 1551473003}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1140624839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010746634190, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1140624840}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1140624840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013482363538, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1140624839}
+  m_LocalRotation: {x: -0.65470964, y: 0.05612264, z: -0.17328733, w: 0.7336055}
+  m_LocalPosition: {x: -0.19224961, y: -0.13636997, z: 0.20927036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 624951910}
+  - {fileID: 1448234289}
+  m_Father: {fileID: 117662534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1141780836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010581889088, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1141780837}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1141780837
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010764300086, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1141780836}
+  m_LocalRotation: {x: 0.014977764, y: 0.06280226, z: 0.26219285, w: 0.9628533}
+  m_LocalPosition: {x: -0.49439675, y: 0.0007191626, z: 0.000021983364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 282853763}
+  m_Father: {fileID: 243004742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1175718363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012261346768, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1175718364}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1175718364
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012486064202, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1175718363}
+  m_LocalRotation: {x: 0.42771524, y: 0.87341267, z: 0.10239939, w: -0.2091039}
+  m_LocalPosition: {x: -0.06809694, y: -0.06971076, z: 0.09190585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1448234289}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1188590294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1188590295}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1188590295
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1188590294}
+  m_LocalRotation: {x: 0.42771524, y: 0.87341267, z: 0.10239939, w: -0.2091039}
+  m_LocalPosition: {x: -0.13310164, y: 0.0136766415, z: -0.0063588223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1735478334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1214114663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1214114664}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1214114664
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1214114663}
+  m_LocalRotation: {x: 0.10156527, y: 0.23371321, z: -0.5870949, w: 0.7683634}
+  m_LocalPosition: {x: -0.31043196, y: 0.048950452, z: 0.024210474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1293315794}
+  - {fileID: 1735478334}
+  m_Father: {fileID: 631265014}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241531115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012944513930, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1241531116}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1241531116
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012684578166, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1241531115}
+  m_LocalRotation: {x: 0.0037320454, y: 0.1259371, z: -0.17151336, w: 0.97709215}
+  m_LocalPosition: {x: -0.45955345, y: 0.0035939645, z: -1.4106139e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 222696360}
+  m_Father: {fileID: 2011458650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242634015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012221917146, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1242634016}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242634016
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014246660326, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1242634015}
+  m_LocalRotation: {x: 0.5871456, y: 0.58261865, z: -0.3541647, w: -0.43632895}
+  m_LocalPosition: {x: -0.299916, y: 0.17952664, z: -0.28876087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 889703026}
+  m_Father: {fileID: 742883892}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1251067650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010225896416, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1251067651}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1251067651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010625651046, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1251067650}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.8918134, y: 7.105427e-17, z: 2.1689764e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246601095}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1262578193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1262578194}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1262578194
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1262578193}
+  m_LocalRotation: {x: -0.010464492, y: 0.06776418, z: 0.25613773, w: 0.9642054}
+  m_LocalPosition: {x: -0.8146736, y: 0.07631214, z: -0.055867426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1412044162}
+  m_Father: {fileID: 797085321}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1282634267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1282634268}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282634268
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1282634267}
+  m_LocalRotation: {x: -0.0129576055, y: 0.023458516, z: -0.3262178, w: 0.9449147}
+  m_LocalPosition: {x: 0.0072232215, y: 0.5288617, z: 0.0036779435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 203591789}
+  m_Father: {fileID: 2008962004}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1293315793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1293315794}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293315794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1293315793}
+  m_LocalRotation: {x: 0.1458898, y: 0.1218983, z: 0.23026155, w: 0.95437765}
+  m_LocalPosition: {x: -0.16400886, y: -0.04170355, z: -0.03651172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 867421593}
+  m_Father: {fileID: 1214114664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1308836710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013750981114, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1308836711}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308836711
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012366704590, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1308836710}
+  m_LocalRotation: {x: -0.010464492, y: 0.06776418, z: 0.25613773, w: 0.9642054}
+  m_LocalPosition: {x: -0.8146736, y: 0.07631214, z: -0.055867426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 243004742}
+  m_Father: {fileID: 1050909494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1317469851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1317469852}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317469852
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1317469851}
+  m_LocalRotation: {x: 0.057579156, y: -0.80961436, z: -0.07257709, w: 0.5796049}
+  m_LocalPosition: {x: 2.6058707e-16, y: 0.06270139, z: -0.5453303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 96149172}
+  m_Father: {fileID: 1517859205}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1361940124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013864534468, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1361940125}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361940125
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011060711776, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1361940124}
+  m_LocalRotation: {x: 0.008126054, y: 0.7070601, z: -0.008126054, w: 0.7070601}
+  m_LocalPosition: {x: -0.7945724, y: -0.0059194462, z: -2.6398303e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 356575853}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1374542980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1374542981}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1374542981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1374542980}
+  m_LocalRotation: {x: -7.71605e-15, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.17941591, y: 0.099110164, z: 0.8085717}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1984698362}
+  m_Father: {fileID: 484823873}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1406581954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010224499364, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1406581955}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406581955
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012595663412, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1406581954}
+  m_LocalRotation: {x: 0.5227069, y: 0.84166193, z: 0.071530566, w: -0.11517841}
+  m_LocalPosition: {x: -0.11037605, y: 0.043650407, z: 0.0028428053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2002424788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1412044161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1412044162}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412044162
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1412044161}
+  m_LocalRotation: {x: -0.1570508, y: -0.10849148, z: -0.452789, w: 0.87094593}
+  m_LocalPosition: {x: -0.18770798, y: -0.48065382, z: 0.11618986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 765543561}
+  m_Father: {fileID: 1262578194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1448234288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011019842490, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1448234289}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448234289
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011808016724, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1448234288}
+  m_LocalRotation: {x: 0.06444576, y: 0.065881565, z: 0.13537413, w: 0.986499}
+  m_LocalPosition: {x: -0.10157889, y: -0.033890996, z: 0.12509039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1175718364}
+  m_Father: {fileID: 1140624840}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1472474104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1472474109}
+  - component: {fileID: 1472474108}
+  - component: {fileID: 1472474107}
+  - component: {fileID: 1472474106}
+  - component: {fileID: 1472474105}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1472474105
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472474104}
+  m_Enabled: 1
+--- !u!124 &1472474106
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472474104}
+  m_Enabled: 1
+--- !u!92 &1472474107
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472474104}
+  m_Enabled: 1
+--- !u!20 &1472474108
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472474104}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1472474109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472474104}
+  m_LocalRotation: {x: 0.15692632, y: -0.8108653, z: 0.25239733, w: 0.50415}
+  m_LocalPosition: {x: 3.17, y: 3.81, z: -4.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 34.571003, y: -116.129005, z: 0}
+--- !u!1 &1476593523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013813128270, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1476593524}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1476593524
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011367639110, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1476593523}
+  m_LocalRotation: {x: 0.012389008, y: -0.64623445, z: 0.030668274, w: 0.76242185}
+  m_LocalPosition: {x: 1.0658141e-16, y: -2.842171e-16, z: -1.0658141e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1709570884}
+  m_Father: {fileID: 146459033}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493327497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1493327498}
+  m_Layer: 0
+  m_Name: WhaleRig01_TailProng1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493327498
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1493327497}
+  m_LocalRotation: {x: -0.042795576, y: 0.3467115, z: 0.19966958, w: 0.9154735}
+  m_LocalPosition: {x: -0.39935303, y: -0.0029751207, z: -1.3210023e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 996646849}
+  m_Father: {fileID: 2035131636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1511200126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014191213110, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1511200127}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511200127
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011868290764, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1511200126}
+  m_LocalRotation: {x: -0.017701112, y: -0.060022194, z: 0.26297295, w: 0.96277165}
+  m_LocalPosition: {x: 0.49440405, y: -0.0007161487, z: -0.000022663227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 194189461}
+  m_Father: {fileID: 249525546}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1517859204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1517859205}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517859205
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1517859204}
+  m_LocalRotation: {x: 0.012389008, y: -0.64623445, z: 0.030668274, w: 0.76242185}
+  m_LocalPosition: {x: 1.0658141e-16, y: -2.842171e-16, z: -1.0658141e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1317469852}
+  m_Father: {fileID: 810326865}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1539110089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013767944572, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1539110090}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539110090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011549278100, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1539110089}
+  m_LocalRotation: {x: 0.5227069, y: 0.84166193, z: 0.071530566, w: -0.11517841}
+  m_LocalPosition: {x: -0.084540054, y: -0.007853902, z: 0.08299144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 624951910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1551473002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1551473003}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1551473003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1551473002}
+  m_LocalRotation: {x: -0.65470964, y: 0.05612264, z: -0.17328733, w: 0.7336055}
+  m_LocalPosition: {x: -0.19224961, y: -0.13636997, z: 0.20927036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1137085968}
+  - {fileID: 1788167582}
+  m_Father: {fileID: 469800662}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1565503167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012375523756, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1565503168}
+  - component: {fileID: 1565503169}
+  m_Layer: 0
+  m_Name: WhaleRig01_Whale3DCLo_Group17209
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565503168
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012984114472, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1565503167}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117326634}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1565503169
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137000013470517000, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1565503167}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2801e1268cfebc74aa49077191afb8fe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Bones:
+  - {fileID: 146459033}
+  - {fileID: 499592695}
+  - {fileID: 813498457}
+  - {fileID: 871528784}
+  - {fileID: 99094939}
+  - {fileID: 246601095}
+  - {fileID: 75456421}
+  - {fileID: 742883892}
+  - {fileID: 1242634016}
+  - {fileID: 889703026}
+  - {fileID: 2002424788}
+  - {fileID: 234767085}
+  - {fileID: 963026756}
+  - {fileID: 1000719825}
+  - {fileID: 117662534}
+  - {fileID: 1140624840}
+  - {fileID: 624951910}
+  - {fileID: 1448234289}
+  - {fileID: 2109312316}
+  - {fileID: 1050909494}
+  - {fileID: 1308836711}
+  - {fileID: 243004742}
+  - {fileID: 1141780837}
+  - {fileID: 1069795161}
+  - {fileID: 738668021}
+  - {fileID: 249525546}
+  - {fileID: 1511200127}
+  - {fileID: 1476593524}
+  - {fileID: 1709570884}
+  - {fileID: 2011458650}
+  - {fileID: 1241531116}
+  - {fileID: 222696360}
+  - {fileID: 356575853}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 146459033}
+  m_AABB:
+    m_Center: {x: 0.27054358, y: -0.5206856, z: 0.784086}
+    m_Extent: {x: 3.490968, y: 2.3475366, z: 2.1281974}
+  m_DirtyAABB: 0
+--- !u!1 &1631444735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1631444736}
+  m_Layer: 0
+  m_Name: WhaleRig01_joint31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1631444736
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1631444735}
+  m_LocalRotation: {x: -0.078234755, y: 0.5672439, z: -0.36927575, w: 0.73194885}
+  m_LocalPosition: {x: -0.044725183, y: 0.22240321, z: 0.3120771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 222044365}
+  m_Father: {fileID: 1008333475}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1671982736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1671982737}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671982737
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1671982736}
+  m_LocalRotation: {x: 0.6623755, y: 0.6780768, z: -0.20679383, w: -0.242295}
+  m_LocalPosition: {x: -0.08651649, y: -0.3083402, z: 0.62095654}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 469800662}
+  m_Father: {fileID: 350822941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1684467587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1684467589}
+  - component: {fileID: 1684467588}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1684467588
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684467587}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1684467589
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684467587}
+  m_LocalRotation: {x: 0.55118865, y: -0.54313576, z: -0.102096595, w: 0.62511677}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 35.317, y: 256.287, z: 296.99}
+--- !u!1 &1709113598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1709113600}
+  - component: {fileID: 1709113599}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1709113599
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1709113598}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.8392157, g: 0.9866937, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1709113600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1709113598}
+  m_LocalRotation: {x: -0.17190516, y: 0.6088483, z: 0.5461584, w: 0.5490569}
+  m_LocalPosition: {x: -2.56, y: 5.48, z: -3.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -58.616, y: 427.702, z: 408.405}
+--- !u!1 &1709570883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012779832286, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1709570884}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1709570884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013233526492, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 1709570883}
+  m_LocalRotation: {x: 0.057579156, y: -0.80961436, z: -0.07257709, w: 0.5796049}
+  m_LocalPosition: {x: 2.6058707e-16, y: 0.06270139, z: -0.5453303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2011458650}
+  m_Father: {fileID: 1476593524}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1735478333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1735478334}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735478334
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1735478333}
+  m_LocalRotation: {x: 0.06444576, y: 0.065881565, z: 0.13537413, w: 0.986499}
+  m_LocalPosition: {x: -0.12162378, y: -0.019900246, z: 0.10920825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1188590295}
+  m_Father: {fileID: 1214114664}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1744363038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1744363039}
+  m_Layer: 0
+  m_Name: WhaleRig01_Hips1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744363039
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1744363038}
+  m_LocalRotation: {x: -0.09161141, y: 0.99579483, z: -6.6584426e-17, w: -5.5365266e-17}
+  m_LocalPosition: {x: -3.5527135e-16, y: -1.7763568e-17, z: 3.1319152e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2143391867}
+  - {fileID: 797085321}
+  m_Father: {fileID: 810326865}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1763258068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1763258069}
+  m_Layer: 0
+  m_Name: WhaleRig01_Jaw1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763258069
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1763258068}
+  m_LocalRotation: {x: 4.2674198e-16, y: 2.6477936e-25, z: 0.02139906, w: 0.999771}
+  m_LocalPosition: {x: -0.009323356, y: -0.08895027, z: -2.7716923e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 562590197}
+  m_Father: {fileID: 222044365}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1788167581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1788167582}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788167582
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1788167581}
+  m_LocalRotation: {x: 0.06444576, y: 0.065881565, z: 0.13537413, w: 0.986499}
+  m_LocalPosition: {x: -0.10157889, y: -0.033890996, z: 0.12509039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1985822643}
+  m_Father: {fileID: 1551473003}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1882362555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1882362556}
+  m_Layer: 0
+  m_Name: WhaleRig01_RLegb5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882362556
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1882362555}
+  m_LocalRotation: {x: 0.12651375, y: 0.019965831, z: -0.013156782, w: 0.9916766}
+  m_LocalPosition: {x: -0.16886146, y: 0.00024563065, z: 0.0000125741835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 765543561}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1904651306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1904651307}
+  m_Layer: 0
+  m_Name: WhaleRig01_MainCntrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904651307
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1904651306}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.000637207, z: -0.2917999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1913729091}
+  m_Father: {fileID: 718682279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1913729090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1913729091}
+  m_Layer: 0
+  m_Name: WhaleRig01_RootCntrl1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913729091
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1913729090}
+  m_LocalRotation: {x: 0.5454948, y: -0, z: -0, w: 0.8381142}
+  m_LocalPosition: {x: 0.10698618, y: 1.6183578, z: -0.2898888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 810326865}
+  m_Father: {fileID: 1904651307}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1984698361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1984698362}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1984698362
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1984698361}
+  m_LocalRotation: {x: -0.19196625, y: 0.67490196, z: -0.183302, w: 0.68851775}
+  m_LocalPosition: {x: 0.17941591, y: 0.1295395, z: -0.20479697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 148017365}
+  m_Father: {fileID: 1374542981}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1985822642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1985822643}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1985822643
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 1985822642}
+  m_LocalRotation: {x: 0.42771524, y: 0.87341267, z: 0.10239939, w: -0.2091039}
+  m_LocalPosition: {x: -0.06809694, y: -0.06971076, z: 0.09190585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1788167582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2002424787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011046543458, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2002424788}
+  m_Layer: 0
+  m_Name: WhaleRig01_RFrontLimb6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2002424788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012630012904, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 2002424787}
+  m_LocalRotation: {x: 0.1458898, y: 0.1218983, z: 0.23026155, w: 0.95437765}
+  m_LocalPosition: {x: -0.16400886, y: -0.04170355, z: -0.03651172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1406581955}
+  m_Father: {fileID: 889703026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2008962003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2008962004}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2008962004
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2008962003}
+  m_LocalRotation: {x: -0.021047132, y: -0.030798161, z: 0.14926352, w: 0.9880936}
+  m_LocalPosition: {x: 0.81892407, y: -0.020235103, z: 0.039882865}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1282634268}
+  m_Father: {fileID: 2143391867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2011458649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011256686712, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2011458650}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2011458650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010961852224, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 2011458649}
+  m_LocalRotation: {x: -0.0045223706, y: -0.21358624, z: -0.154588, w: 0.96460515}
+  m_LocalPosition: {x: -0.5116772, y: -0.0027899542, z: -1.4232073e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1241531116}
+  m_Father: {fileID: 1709570884}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2035131635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2035131636}
+  m_Layer: 0
+  m_Name: WhaleRig01_Tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035131636
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2035131635}
+  m_LocalRotation: {x: -0.00034285526, y: 0.020956133, z: 0.00007635679, w: 0.99978036}
+  m_LocalPosition: {x: -0.41004127, y: 0.005348404, z: -1.3531955e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1493327498}
+  m_Father: {fileID: 44370105}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2096129257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2096129258}
+  m_Layer: 0
+  m_Name: WhaleRig01_LFrontLimb7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096129258
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2096129257}
+  m_LocalRotation: {x: 0.5227069, y: 0.84166193, z: 0.071530566, w: -0.11517841}
+  m_LocalPosition: {x: -0.084540054, y: -0.007853902, z: 0.08299144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1137085968}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2109312315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013305765332, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2109312316}
+  m_Layer: 0
+  m_Name: WhaleRig01_Hips1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109312316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011628397996, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 2109312315}
+  m_LocalRotation: {x: -0.09161141, y: 0.99579483, z: -6.6584426e-17, w: -5.5365266e-17}
+  m_LocalPosition: {x: -3.5527135e-16, y: -1.7763568e-17, z: 3.1319152e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1069795161}
+  - {fileID: 1050909494}
+  m_Father: {fileID: 146459033}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2111278168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013075648676, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2111278169}
+  m_Layer: 0
+  m_Name: WhaleRig01_MainCntrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111278169
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012408610640, guid: f85e3056e6d31594d8f370d05da256ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 270668897}
+  m_GameObject: {fileID: 2111278168}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.000637207, z: -0.2917999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 71858486}
+  m_Father: {fileID: 1117326634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2126729003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2126729004}
+  - component: {fileID: 2126729005}
+  m_Layer: 0
+  m_Name: WhaleRig01_Whale3DCLo_Group17209
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126729004
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2126729003}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 718682279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2126729005
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 6f012b33467426c43a1c019d350c0a03,
+    type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2126729003}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 922e87038a40b5842a831dd7c592e216, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_Bones:
+  - {fileID: 810326865}
+  - {fileID: 896104002}
+  - {fileID: 1008333475}
+  - {fileID: 1631444736}
+  - {fileID: 222044365}
+  - {fileID: 1763258069}
+  - {fileID: 1374542981}
+  - {fileID: 148017365}
+  - {fileID: 631265014}
+  - {fileID: 1214114664}
+  - {fileID: 1293315794}
+  - {fileID: 1735478334}
+  - {fileID: 72043299}
+  - {fileID: 1671982737}
+  - {fileID: 469800662}
+  - {fileID: 1551473003}
+  - {fileID: 1137085968}
+  - {fileID: 1788167582}
+  - {fileID: 1744363039}
+  - {fileID: 797085321}
+  - {fileID: 1262578194}
+  - {fileID: 1412044162}
+  - {fileID: 765543561}
+  - {fileID: 2143391867}
+  - {fileID: 2008962004}
+  - {fileID: 1282634268}
+  - {fileID: 203591789}
+  - {fileID: 1517859205}
+  - {fileID: 1317469852}
+  - {fileID: 96149172}
+  - {fileID: 44370105}
+  - {fileID: 2035131636}
+  - {fileID: 1493327498}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 810326865}
+  m_AABB:
+    m_Center: {x: 0.27054358, y: -0.5206856, z: 0.784086}
+    m_Extent: {x: 3.4909682, y: 2.347537, z: 2.1281974}
+  m_DirtyAABB: 0
+--- !u!1 &2143391866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2143391867}
+  m_Layer: 0
+  m_Name: WhaleRig01_LLegb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143391867
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 6f012b33467426c43a1c019d350c0a03, type: 3}
+  m_PrefabInternal: {fileID: 280886871}
+  m_GameObject: {fileID: 2143391866}
+  m_LocalRotation: {x: 0.7884862, y: -0.6138374, z: 0.034832064, w: -0.0167347}
+  m_LocalPosition: {x: 0.069904715, y: -0.23117751, z: -0.607056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2008962004}
+  m_Father: {fileID: 1744363039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

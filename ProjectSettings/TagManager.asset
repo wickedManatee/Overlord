@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - gun
+  - TeleportIgnore
+  - projectile
+  - FxTemporaire
+  - VRPlayer
+  - iDroidPanel
+  - PlayerHUD
+  - Enemy
+  - VRMainCamera
+  - Fire
+  - CanDestroy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Floor
+  - VRonly
+  - PConly
+  - IgnoreBullets
+  - EnvironmentalEffect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

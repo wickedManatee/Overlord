@@ -1,0 +1,59 @@
+# Blender MTL File: 'lumpycow_sintel_backpack_2.62.blend'
+# Material Count: 5
+
+newmtl Cloth
+Ns 19.607843
+Ka 1.000000 1.000000 1.000000
+Kd 0.152961 0.139718 0.139718
+Ks 0.004256 0.003800 0.002942
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd blanket_tex.png
+map_Bump -bm 0.255966 blanket_tex.png
+
+newmtl backpack_metal
+Ns 96.078431
+Ka 0.741259 0.741259 0.741259
+Kd 0.397437 0.481164 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 5
+map_Kd C:\Users\wgmea\Documents\Overlord\home\lumpy\Desktop\Sintel Backpack Textures\bagtex1.png
+
+newmtl backpack_metal_NONE
+Ns 96.078431
+Ka 0.741259 0.741259 0.741259
+Kd 0.397437 0.481164 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 5
+
+newmtl leather_bag
+Ns 21.568627
+Ka 1.000000 1.000000 1.000000
+Kd 0.284444 0.190814 0.110862
+Ks 0.055151 0.043587 0.033035
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\wgmea\Documents\Overlord\home\lumpy\Desktop\Sintel Backpack Textures\bagtex1.png
+map_Bump -bm 0.051404 C:\\Users\\wgmea\\Documents\\Overlord\\home\\lumpy\\Desktop\\Sintel Backpack Textures\\bagtex1.png
+
+newmtl leather_straps
+Ns 21.568627
+Ka 1.000000 1.000000 1.000000
+Kd 0.284444 0.190814 0.110862
+Ks 0.055151 0.043587 0.033035
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\wgmea\Documents\Overlord\home\lumpy\Desktop\Sintel Backpack Textures\bagextras_tex3.png
+map_Bump -bm 0.793338 C:\\Users\\wgmea\\Documents\\Overlord\\home\\lumpy\\Desktop\\Sintel Backpack Textures\\bagextras_tex3.png
